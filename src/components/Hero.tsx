@@ -34,7 +34,7 @@ const Hero: FC = (): JSX.Element => {
 
             <div className="flex w-full flex-col gap-5 sm:flex-row">
                <Button type="button" title="Download App" variant="btn_green" />
-               <Button type="button" title="How we work?" variant="btn_white-text" icon="/img/play.svg" />
+               <Button type="button" title="How we work?" variant="btn_white_text" icon="/img/play.svg" />
             </div>
          </div>
 

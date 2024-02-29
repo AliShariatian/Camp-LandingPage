@@ -10,9 +10,9 @@ type Props = {
 
 const Button: FC<Props> = ({ type, title, icon, variant }): JSX.Element => {
    return (
-      <button type={type} className={`${variant} flexCenter gap-3 rounded-full`}>
+      <button type={type} className={`${variant} flexCenter gap-3 rounded-full border`}>
          {icon && <Image src={icon} alt={title} width={24} height={24} />}
-         <label className="bold-16 whitespace-nowrap cursor-pointer">{title}</label>
+         <label className="bold-16 cursor-pointer whitespace-nowrap">{title}</label>
       </button>
    );
 };
